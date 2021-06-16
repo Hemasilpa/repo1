@@ -18,7 +18,7 @@ pipeline {
 		  
 		        steps {
 				
-			}
+			      }
 			
 		}
 		
@@ -29,4 +29,7 @@ pipeline {
 			}
 	}
 
+   } 
 }
+
+
