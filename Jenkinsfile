@@ -1,3 +1,6 @@
+
+
+
 pipeline {
 
       agent any 
@@ -8,29 +11,37 @@ pipeline {
 		  
 		  
 		        steps {
-				echo "good morning"
-			}
+
+				       echo "good morning"
+			        }
 				
-				
-		    }
+				}
+
 				
 		  stage("test") {
 		  
 		        steps {
+
+				
+			
+
 				echo "good afternoon"
 			  }
+
 			
 		}
 		
 		  stage("deploy") {
 		     
 			    steps {
-				    
+
+				     
 				    echo "good evening"
 			}
 	}
 
    } 
 }
+
 
 
