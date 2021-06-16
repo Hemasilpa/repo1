@@ -9,16 +9,16 @@ pipeline {
 		  
 		        steps {
 				
-				}
+			}
 				
 				
-				}
+		    }
 				
 		  stage("test") {
 		  
 		        steps {
 				
-			      }
+			  }
 			
 		}
 		
