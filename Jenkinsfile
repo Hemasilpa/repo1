@@ -9,7 +9,7 @@ pipeline {
 		  
 		  
 		        steps {
-				
+				 echo "good morning"
 				}
 				
 				
@@ -18,7 +18,7 @@ pipeline {
 		  stage("test") {
 		  
 		        steps {
-				
+				echo "good afternoon"
 			}
 			
 		}
@@ -26,7 +26,7 @@ pipeline {
 		  stage("deploy") {
 		     
 			    steps {
-				
+				     echo "good evening"
 			}
 	}
 
